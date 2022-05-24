@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  consumer:
+    build: .
+    environment:
+      ELASTIC_PASSWORD: 
+      ELASTIC_SERVER: 
+      KAFKA_ADDRESS: 
